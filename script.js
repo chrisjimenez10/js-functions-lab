@@ -125,7 +125,7 @@ const longestStringInArray = (arr)=> {
             longestString = arr[i]; 
         }
     }
-    return longestString;
+    return longestString.length;
 }
 
 console.log('Exercise 7 Result:', longestStringInArray(["h", "mamamias", "hello", "at", "christopherjimenez", "rushuniversityanduicwithtritoncollege"]));

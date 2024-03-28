@@ -150,3 +150,22 @@ const stringsLongerThan = (arr, number)=> {
 }
 
 console.log('Exercise 8 Result:', stringsLongerThan(["h", "mamamias", "hello", "at", "christopherjimenez"], 5));
+
+/*
+Exercise 9: numArgs
+
+Challenge yourself with numArgs. This function should return the count of arguments passed to it when called.
+
+Complete Exercise 9 in the space below:
+*/
+
+const numArgs = (...arguments)=> {
+    let newArr = [];
+    for(let i=0; i<arguments.length; i++){
+        newArr.push(arguments[i])
+    }
+    return newArr.length;
+}
+
+console.log('Exercise 9 Result:', numArgs(1, 2, 3, 4 ,100));
+//I want to put the count of arguments as an array and take it's length: array.length
